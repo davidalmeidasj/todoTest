@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, {useEffect, useRef} from 'react'
 
 function useObserver(ref: any, onClick: () => void, isOpen: boolean) {
     // CLose modal if clicked on outside of element

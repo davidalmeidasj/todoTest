@@ -13,7 +13,6 @@ type Props = {
     updateTask: (from: string, to: string, task: Task) => void,
 }
 
-
 const PessoalBoard = (props: Props) => {
 
     const {atividades, removeTask, updateTask} = props;

@@ -1,9 +1,9 @@
 import * as React from "react";
+import {useState} from "react";
 import {Draggable} from "react-beautiful-dnd";
 import styled from "styled-components";
 import {Task as TaskInterface} from "../types";
-import {useState} from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import TextArea from "../../../../../../common/components/TextArea/TextArea";
 import Select from "../../../../../../common/components/Select/Select";
 import {Button} from "../../../../../../common/components/styled/button";

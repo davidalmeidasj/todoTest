@@ -1,10 +1,10 @@
 import {GlobalStyles} from "./styles/GlobalStyles";
 
 import * as React from "react";
-import { History } from "history";
-import { ConnectedRouter } from "connected-react-router";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTrashAlt, faPencilAlt } from '@fortawesome/free-solid-svg-icons'
+import {History} from "history";
+import {ConnectedRouter} from "connected-react-router";
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {faPencilAlt, faTrashAlt} from '@fortawesome/free-solid-svg-icons'
 import routes from "./infra/routes";
 
 library.add(faTrashAlt, faPencilAlt)

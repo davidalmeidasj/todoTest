@@ -1,6 +1,5 @@
 import * as React from "react";
-import { createGlobalStyle, ThemeProvider } from "styled-components";
-import styled from "styled-components";
+import styled, {createGlobalStyle, ThemeProvider} from "styled-components";
 import {mainTheme} from "../../utils/theme";
 
 interface Props {

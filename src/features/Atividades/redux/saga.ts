@@ -1,4 +1,4 @@
-import {all, select, takeLatest, put} from 'redux-saga/effects';
+import {all, put, select, takeLatest} from 'redux-saga/effects';
 import {ADD_TO_LIST, REMOVE_FROM_LIST, UPDATE_LIST, UPDATE_TASK} from "./types";
 import {Action} from "../../../common/types";
 import {PESSOAL, TRABALHO} from "../constants";
@@ -238,7 +238,6 @@ function* executeAddToList(action: Action) {
     }
 }
 
-
 function* executeUpdateTask(action: Action) {
     const {from, to, task} = action.payload;
 
@@ -337,11 +336,9 @@ function* executeUpdateTask(action: Action) {
 
 }
 
-
 function* watchUpdateList() {
     yield takeLatest(UPDATE_LIST, executeUpdateList);
 }
-
 
 function* watchRemoveFromList() {
     yield takeLatest(REMOVE_FROM_LIST, executeRemoveFromList);

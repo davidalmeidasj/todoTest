@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Droppable } from "react-beautiful-dnd";
+import {Droppable} from "react-beautiful-dnd";
 import {Column as ColumnInterface, Task as TaskInterface} from "../types";
 import {TaskList, Title, Wrapper} from "../styled/elements";
 import Task from "../Task/Task";
